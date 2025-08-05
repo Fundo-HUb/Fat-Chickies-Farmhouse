@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nomfundo Faith Khoza">
+    <meta name="description" content="organic eggs, free-range, farmhouse">
+    <meta name="keywords" content="farmhouse, chickens, organic">
+    <title>Careers - Fat Chickies Farmhouse</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="css/careers.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/LOGO.png" alt="Fat Chickies Farmhouse Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="products-and-services.html">Products and Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="careers.html">Careers</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Vacancies at Fat Chickies Farmhouse</h1>
+
+        <div class="container">
+            <h2>Join Our Team</h2>
+            <p>We're always looking for dedicated and passionate individuals. Check out our open positions below or see recently closed roles.</p>
+
+            <h2>Current Job Openings</h2>
+
+            <!-- Current job listings -->
+            <div class="job">
+                <h3>Farm Manager</h3>
+                <p>Oversee daily operations and manage staff to ensure the well-being of our chickens.</p>
+                <p><strong>Location:</strong> Main Farm Site</p>
+                <p><strong>Requirements:</strong> 5+ years in farm management, poultry care knowledge.</p>
+                <button class="apply-button" data-job="Farm Manager">Apply Now</button>
+            </div>
+
+            <div class="job">
+                <h3>Hatchery Worker</h3>
+                <p>Monitor egg hatching in the hatchery. Full training provided.</p>
+                <p><strong>Location:</strong> Hatchery Department</p>
+                <p><strong>Requirements:</strong> High school diploma, comfortable in warm environments.</p>
+                <button class="apply-button" data-job="Hatchery Worker">Apply Now</button>
+            </div>
+
+            <h2>Recently Closed Positions</h2>
+
+            <!-- Closed job listings -->
+            <div class="job closed">
+                <h3>Feeding Specialist</h3>
+                <p>Managed feeding schedules for optimal health.</p>
+                <p><strong>Closed on:</strong> October 15, 2024</p>
+            </div>
+
+            <div class="job closed">
+                <h3>Maintenance Technician</h3>
+                <p>Maintained farm equipment and ensured operational efficiency.</p>
+                <p><strong>Closed on:</strong> September 30, 2024</p>
+            </div>
+
+            <div class="job closed">
+                <h3>Veterinary Assistant</h3>
+                <p>Assisted with chicken health assessments and vaccinations.</p>
+                <p><strong>Closed on:</strong> September 15, 2024</p>
+            </div>
+        </div>
+
+        <!-- Popup Modal for Applying -->
+        <div id="applyModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Apply for <span id="jobTitle"></span></h2>
+                <p>Thank you for your interest! Fill in your contact details to apply.</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <button type="submit">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nomfundo Faith Khoza</p>
+    </footer>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="js/careers.js"></script>
+</body>
+</html>
